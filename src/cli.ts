@@ -9,6 +9,7 @@ run()
 
 async function run() {
 
+
     // Add elections
     console.log("[INFO] Add elections")
     await p.propagate("/elections",{
@@ -45,7 +46,7 @@ async function run() {
             new PropagatableItem(false,"sundown_date","2022-04-01"),
             new PropagatableItem(true,"configuration"),
         ]
-    },2)
+    },50)
 
 }
 
